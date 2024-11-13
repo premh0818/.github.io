@@ -5,7 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<!-- Basic Structure
+<!DOCTYPE html>: Defines the document type as HTML5.
+<html>: The root of your HTML document.
+<head>: Contains meta information, links to stylesheets, etc.
+<title>: Sets the title of your page (appears in browser tab).
+<body>: The main content area where everything visible to users goes.
+Content Organization
+<header>: For your website’s header, which might include a logo, navigation, or a title.
+<nav>: Holds navigation links (e.g., to sections like "About Me," "Projects," "Contact").
+<main>: The main content section, focusing on the primary content of the page.
+<section>: Divides content into logical blocks (e.g., "About Me," "Portfolio").
+<article>: For standalone content, like blog posts or a portfolio entry.
+<footer>: For the footer section, typically includes copyright, social media links, or contact information.
+Text and Headings
+<h1> to <h6>: Headings of different sizes, with <h1> being the largest.
+<p>: Paragraphs of text.
+<strong> or <b>: Bold text for emphasis.
+<em> or <i>: Italics for emphasis.
+Links and Buttons
+<a href="URL">: Creates a hyperlink. Example: <a href="https://github.com/your-username" target="_blank">GitHub</a>.
+<button>: Creates clickable buttons (can also be styled to look like links).
+Lists
+<ul>: Unordered list (bulleted).
+<ol>: Ordered list (numbered).
+<li>: List items within <ul> or <ol>.
+Images and Media
+<img src="URL" alt="description">: Displays an image, with alt providing a text description.
+<video>: Embeds a video. You can add attributes like controls for play/pause options.
+<audio>: Embeds audio files with optional controls.
+Forms and Inputs
+<form action="submit-url" method="post">: Defines a form.
+<input type="text" name="fieldname">: Text input fields.
+<textarea>: For larger text input areas.
+<button type="submit">: A button to submit the form data.
+Styling and Layout
+<div>: A block-level container used to group content (often styled with CSS).
+<span>: An inline container used to group text for styling.
+<style>: Inline CSS styles (though linking a stylesheet is usually preferred).
+<link rel="stylesheet" href="styles.css">: Links to an external CSS file in the <head>.
+Semantic Tags
+<aside>: Content related to the main content, like a sidebar.
+<figure> and <figcaption>: Wraps images with a caption, ideal for portfolios. -->
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PREM BOLUMALLA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        background-image:('istockphoto-543183018-1024x1024.jpg');
+        background-size: cover; /* Ensures the image covers the entire background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position: center; /* Centers the image */
+    }
+</style>
 <body>
-    <h1>Hello Allll</h1>
+
+<header>
+    <h1>PREM BOLUMALLA</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a developer passionate about open source and coding.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Project One</h3>
+            <p>Description of your project.</p>
+            <a href="https://github.com/your-username/project-one" target="_blank">View on GitHub</a>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Your Name</p>
+    <a href="https://github.com/your-username" target="_blank">GitHub Profile</a>
+</footer>
+
 </body>
 </html>
+
+
+
